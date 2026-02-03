@@ -92,13 +92,19 @@ int main(void)
 
   /* Initialize all configured peripherals */
   /* USER CODE BEGIN 2 */
-
+  GPIO_LED_UsrInit();
+  LL_GPIO_ResetOutputPin(GPIOC, LL_GPIO_PIN_13); // LED ON
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+    LL_GPIO_ResetOutputPin(GPIOC, LL_GPIO_PIN_13); // LED ON
+    for (volatile uint32_t i = 0; i < 2000000; i++);
+
+    LL_GPIO_SetOutputPin(GPIOC, LL_GPIO_PIN_13);   // LED OFF
+    for (volatile uint32_t i = 0; i < 2000000; i++);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

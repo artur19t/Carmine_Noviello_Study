@@ -51,6 +51,12 @@
 				"file" : 1,
 				"line" : 74,
 				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 0
 			}
 		]
 	},
@@ -159,7 +165,8 @@
 				0,
 				1,
 				2,
-				3
+				3,
+				5
 			]
 		},
 		{
@@ -302,7 +309,8 @@
 				0,
 				1,
 				2,
-				3
+				3,
+				5
 			]
 		},
 		{
@@ -316,11 +324,11 @@
 			"name" : "Object Libraries",
 			"sourceIndexes" : 
 			[
-				5,
 				6,
 				7,
 				8,
-				9
+				9,
+				10
 			]
 		}
 	],
@@ -355,6 +363,12 @@
 			"compileGroupIndex" : 1,
 			"path" : "startup_stm32f401xc.s",
 			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "User/Src/hw_init.c",
+			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 3,
