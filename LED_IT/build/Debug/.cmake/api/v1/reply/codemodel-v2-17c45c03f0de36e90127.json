@@ -60,14 +60,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "LED_IT::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-LED_IT-Debug-e99fb07923fe32b01696.json",
+					"jsonFile" : "target-LED_IT-Debug-288127f2db7e0fc1b5e2.json",
 					"name" : "LED_IT",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "STM32_Drivers::@768a070a0fe75716b479",
-					"jsonFile" : "target-STM32_Drivers-Debug-12fdcae632fdcf4b9a94.json",
+					"jsonFile" : "target-STM32_Drivers-Debug-a37c1f7ba4341e2e4377.json",
 					"name" : "STM32_Drivers",
 					"projectIndex" : 0
 				}
