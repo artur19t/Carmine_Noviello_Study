@@ -50,6 +50,17 @@ target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     User/Inc
 )
 
+add_custom_target(flash
+    COMMAND openocd
+        -f interface/stlink.cfg
+        -f target/stm32f4x.cfg
+        -c "program ${CMAKE_PROJECT_NAME}.elf verify reset; exit"
+    DEPENDS ${CMAKE_PROJECT_NAME}
+    WORKING_DIRECTORY $<TARGET_FILE_DIR:${CMAKE_PROJECT_NAME}>
+    USES_TERMINAL
+    VERBATIM
+)
+
 
 # Link directories setup
 target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE

@@ -2,18 +2,17 @@
 53	675	7922755416610010	CMakeFiles/LED_IT.dir/startup_stm32f401xc.s.obj	ce5c035f21175964
 40	677	7922755416489379	CMakeFiles/LED_IT.dir/Core/Src/sysmem.c.obj	83c63aab998a7b7a
 65	714	7922755416742125	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f4xx.c.obj	4b393c7d642d5e2f
-81	354	7922760254937327	CMakeFiles/LED_IT.dir/Core/Src/stm32f4xx_it.c.obj	880437ffa9a22d86
+14	230	7922766408842633	CMakeFiles/LED_IT.dir/Core/Src/stm32f4xx_it.c.obj	880437ffa9a22d86
 71	738	7922755416796550	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c.obj	24fd13a49f6be85b
 89	723	7922755416975702	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c.obj	284aa4de3a4463af
 77	715	7922755416844838	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c.obj	c001241f2f626453
-100	347	7922760255122696	CMakeFiles/LED_IT.dir/User/Src/hw_init.c.obj	198e0fbd69b65b81
+26	256	7922766408965808	CMakeFiles/LED_IT.dir/User/Src/hw_init.c.obj	198e0fbd69b65b81
 83	716	7922755416910383	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c.obj	75094a57517bf37b
 46	915	7922755416548070	CMakeFiles/LED_IT.dir/Core/Src/syscalls.c.obj	4bcc2e77fbfd8ce2
-69	371	7922760254810607	CMakeFiles/LED_IT.dir/Core/Src/main.c.obj	c13731679ddb3118
-915	2772	7922755425229532	LED_IT.elf	3c3826d8577f022d
-90	359	7922760255024409	CMakeFiles/LED_IT.dir/User/Src/but_state.c.obj	ff959995e8ab275f
-14	230	7922766408842633	CMakeFiles/LED_IT.dir/Core/Src/stm32f4xx_it.c.obj	880437ffa9a22d86
 5	251	7922766408756826	CMakeFiles/LED_IT.dir/Core/Src/main.c.obj	c13731679ddb3118
-26	256	7922766408965808	CMakeFiles/LED_IT.dir/User/Src/hw_init.c.obj	198e0fbd69b65b81
-20	274	7922766408904494	CMakeFiles/LED_IT.dir/User/Src/but_state.c.obj	ff959995e8ab275f
 274	427	7922766411445947	LED_IT.elf	2dcee93caaf8d693
+20	274	7922766408904494	CMakeFiles/LED_IT.dir/User/Src/but_state.c.obj	ff959995e8ab275f
+30	1334	7922793103410941	CMakeFiles/flash	f8d0c753646f09c
+30	1334	7922793103410941	C:/Users/trety/Desktop/IoT/Projects/Carmin Noviello/LED_IT/build/Debug/CMakeFiles/flash	f8d0c753646f09c
+29	1440	7922793682389374	CMakeFiles/flash	2459e2e34a523a16
+29	1440	7922793682389374	C:/Users/trety/Desktop/IoT/Projects/Carmin Noviello/LED_IT/build/Debug/CMakeFiles/flash	2459e2e34a523a16

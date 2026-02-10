@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/trety/Desktop/IoT/Projects/Carmin Noviello/UART/build/Debug/cmake_install.cmake",
+		"C:/Users/trety/Desktop/IoT/Projects/Carmin Noviello/UART/build/Debug/cmake/stm32cubemx/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,4 +1,5 @@
 C:/Users/trety/Desktop/IoT/Projects/Carmin Noviello/LED_IT/build/Debug/CMakeFiles/LED_IT.dir
+C:/Users/trety/Desktop/IoT/Projects/Carmin Noviello/LED_IT/build/Debug/CMakeFiles/flash.dir
 C:/Users/trety/Desktop/IoT/Projects/Carmin Noviello/LED_IT/build/Debug/CMakeFiles/edit_cache.dir
 C:/Users/trety/Desktop/IoT/Projects/Carmin Noviello/LED_IT/build/Debug/CMakeFiles/rebuild_cache.dir
 C:/Users/trety/Desktop/IoT/Projects/Carmin Noviello/LED_IT/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir

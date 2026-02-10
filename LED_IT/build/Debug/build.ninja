@@ -133,6 +133,12 @@ build LED_IT.elf: C_EXECUTABLE_LINKER__LED_IT_Debug cmake/stm32cubemx/CMakeFiles
 
 
 #############################################
+# Utility command for flash
+
+build flash: phony CMakeFiles/flash LED_IT.elf
+
+
+#############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
@@ -154,6 +160,14 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
   restat = 1
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Custom command for CMakeFiles\flash
+
+build CMakeFiles/flash | ${cmake_ninja_workdir}CMakeFiles/flash: CUSTOM_COMMAND LED_IT.elf || LED_IT.elf cmake/stm32cubemx/STM32_Drivers
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\trety\Desktop\IoT\Projects\Carmin Noviello\LED_IT\build\Debug" && openocd -f interface/stlink.cfg -f target/stm32f4x.cfg -c "program LED_IT.elf verify reset; exit""
+  pool = console
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
